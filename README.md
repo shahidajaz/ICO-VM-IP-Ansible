@@ -12,4 +12,10 @@ With Cisco Intersight Cloud Orchestrator you can truly evolve your automation st
 
 ## Cisco Intersight Cloud Orchestrator Workflow for Web Servers provisioning
 
-![image](https://user-images.githubusercontent.com/70768079/183655308-c7cf3b58-e64d-41d3-afec-17dd8d3fc792.png)
+There are four tasks used in this work flow
+1. Create VM from a template
+2. Guest Customization for a virtual machine (customize hostname and IP address)
+3. Update hosts file for Ansible to install the NGINX web server by using SSH task built in ICO
+4. Finally use Ansible to install the NGINX web servers and start the same services as well
+
+<img width="598" alt="image" src="https://user-images.githubusercontent.com/70768079/183659753-28f29202-8039-442f-ac6e-d07e51ed0f31.png">
