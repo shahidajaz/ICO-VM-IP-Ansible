@@ -16,11 +16,11 @@ There are four tasks used in this work flow
 1. Create VM from a template
 2. Guest Customization for a virtual machine (customize hostname and IP address)
 3. Update hosts file for Ansible to install the NGINX web server by using SSH task built in ICO
-4. Finally use Ansible to install the NGINX web servers and start the same services as well
+4. Finally use Ansible to install the NGINX web servers and start the NGINX service
 
 <img width="598" alt="image" src="https://user-images.githubusercontent.com/70768079/183659753-28f29202-8039-442f-ac6e-d07e51ed0f31.png">
 
-## Fill the inputs in to the workflow
+## Fill the inputs into the workflow
 <img width="1768" alt="image" src="https://user-images.githubusercontent.com/70768079/183887674-9a93d8b8-5471-41ca-a592-bd98c03b1e4c.png">
 
 ## Workflow Execution
