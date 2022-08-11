@@ -32,8 +32,8 @@ There are four tasks used in this work flow
 <img width="789" alt="image" src="https://user-images.githubusercontent.com/70768079/183888956-c5e28932-022c-4bb5-9813-8e5f65be5cd8.png">
 
 ## Check the Web Server is up and running
-<img width="1554" alt="image" src="https://user-images.githubusercontent.com/70768079/184169724-b0bca490-03a3-4e97-8919-dad796f028c5.png">
 
+<img width="1470" alt="image" src="https://user-images.githubusercontent.com/70768079/184170016-c1521db1-92eb-4cc0-86c7-248d57f82209.png">
 
 
 # Rollback
