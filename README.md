@@ -16,7 +16,7 @@ There are four tasks used in this work flow
 1. Create VM from a template
 2. Guest Customization for a virtual machine (customize hostname and IP address)
 3. Update hosts file for Ansible to install the NGINX web server, by using SSH tasks.
-4. Finally use Ansible to install the NGINX web servers, update the Index.html file, and finally start the NGINX service
+4. Use Ansible to install the NGINX web servers, update the Index.html file, and finally start the NGINX service
 
 <img width="598" alt="image" src="https://user-images.githubusercontent.com/70768079/183659753-28f29202-8039-442f-ac6e-d07e51ed0f31.png">
 
