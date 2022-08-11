@@ -35,6 +35,9 @@ There are four tasks used in this work flow
 
 <img width="1168" alt="image" src="https://user-images.githubusercontent.com/70768079/184159709-66d180a8-93e8-46ae-b291-449cb5d7eb61.png">
 
+<img width="1505" alt="image" src="https://user-images.githubusercontent.com/70768079/184160871-a7a1b092-d668-440e-a686-4e249adc28af.png">
+
+
 
 # Rollback
 ICO supports the functionality of rollbacks by reverting entities created or modified when executing a workflow. You can choose one or more tasks to revert back as shown in the figure below:
