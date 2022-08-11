@@ -33,8 +33,6 @@ There are four tasks used in this work flow
 
 ## Check the Web Server is up and running
 
-<img width="1168" alt="image" src="https://user-images.githubusercontent.com/70768079/184159709-66d180a8-93e8-46ae-b291-449cb5d7eb61.png">
-
 <img width="1505" alt="image" src="https://user-images.githubusercontent.com/70768079/184160871-a7a1b092-d668-440e-a686-4e249adc28af.png">
 
 
