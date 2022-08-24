@@ -3,7 +3,7 @@
 The automated process of creating a virtual machine, customising the hostname and & IP address, and utilising a configuration management application, Ansible, to install packages (in this case, NGINX) by using Cisco Intersight Cloud Orchestrator
 
 ## Table of Contents
-* [What is Cisco Intersight Cloud Orchestrator](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#What--is-Cisco-Intersight-Cloud-Orchestrator (ICO)?)
+* [What is Cisco Intersight Cloud Orchestrator](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#What--is-Cisco-Intersight-Cloud-Orchestrator---ICO)
 * [Prerequisites](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#prerequisites)
 * [Workflow for Web Server provisioning](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#Workflow for Web Server provisioning)
 * [Fill the inputs into the workflow](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#Fill the inputs into the workflow)
@@ -11,7 +11,7 @@ The automated process of creating a virtual machine, customising the hostname an
 * [Rollbacks](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#rollbacks)
 * [Documentation reference](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#documentation-reference)
 
-## What is Cisco Intersight Cloud Orchestrator (ICO)?
+## What is Cisco Intersight Cloud Orchestrator - ICO
 
 Cisco Intersight Cloud Orchestrator provide a consistent, cloud-like experience across your hybrid IT environment by providing an easy-to-use workflow designer. 
 
