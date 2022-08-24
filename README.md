@@ -4,9 +4,10 @@ The automated process of creating a virtual machine, customising the hostname an
 
 ## Table of Contents
 * [What is Cisco Intersight Cloud Orchestrator](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#What--is-Cisco-Intersight-Cloud-Orchestrator (ICO)?)
-* [Index](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#index)
-* [Workflow - ACI Basic Tenant Config](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#workflow---aci-basic-tenant-config)
-* [Workflow - ACI Update Filter](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#workflow---aci-update-filter)
+* [Prerequisites](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#prerequisites)
+* [Workflow for Web Server provisioning](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#Workflow for Web Server provisioning)
+* [Fill the inputs into the workflow](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#Fill the inputs into the workflow)
+* [Check the VM in the vCenter](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#Check the VM in the vCenter)
 * [Rollbacks](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#rollbacks)
 * [Documentation reference](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#documentation-reference)
 
@@ -18,7 +19,10 @@ With Cisco Intersight Cloud Orchestrator you can truly evolve your automation st
 
 <img width="1758" alt="image" src="https://user-images.githubusercontent.com/70768079/183657135-e1021a2c-f61a-4261-b480-7718d426ac8a.png">
 
-## Cisco Intersight Cloud Orchestrator Workflow for Web Servers provisioning
+## Prerequisites
+To execute the workflow, Hyperflex, vCenter and Ansible Host must be connected to Intersight by adding it as a Target.
+
+## Workflow for Web Server provisioning
 
 There are four tasks used in this work flow
 1. Create VM from a template
