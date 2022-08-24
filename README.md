@@ -3,13 +3,13 @@
 The automated process of creating a virtual machine, customising the hostname and & IP address, and utilising a configuration management application, Ansible, to install packages (in this case, NGINX) by using Cisco Intersight Cloud Orchestrator
 
 ## Table of Contents
-* [What is Cisco Intersight Cloud Orchestrator](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#What--is-Cisco-Intersight-Cloud-Orchestrator---ICO)
-* [Prerequisites](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#prerequisites)
-* [Workflow for Web Server provisioning](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#Workflow for Web Server provisioning)
-* [Fill the inputs into the workflow](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#Fill the inputs into the workflow)
-* [Check the VM in the vCenter](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#Check the VM in the vCenter)
-* [Rollbacks](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#rollbacks)
-* [Documentation reference](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#documentation-reference)
+* [What is Cisco Intersight Cloud Orchestrator](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#what-is-cisco-intersight-cloud-orchestrator---ico)
+* [Prerequisites](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#prerequisites)
+* [Workflow for Web Server provisioning](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#workflow-for-web-server-provisioning)
+* [Fill the inputs into the workflow](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#fill-the-inputs-into-the-workflow)
+* [Check the VM in the vCenter](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#check-the-vm-in-the-vcenter)
+* [Check the Web Server is up and running](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#check-the-web-server-is-up-and-running)
+* [Rollbacks](https://github.com/shahidajaz/ICO-VM-IP-Ansible/blob/main/README.md#rollback)
 
 ## What is Cisco Intersight Cloud Orchestrator - ICO
 
