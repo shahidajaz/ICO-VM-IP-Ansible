@@ -21,6 +21,7 @@ With Cisco Intersight Cloud Orchestrator you can truly evolve your automation st
 
 ## Prerequisites
 To execute the workflow, Hyperflex, vCenter and Ansible Host must be connected to Intersight by adding it as a Target.
+The Ansible Playbook is provided in the repo and needs to be copied to the Ansible Host before running the workflow. 
 
 ## Workflow for Web Server provisioning
 
