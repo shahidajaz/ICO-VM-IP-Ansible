@@ -3,9 +3,36 @@
   tasks:
     - name: ensure nginx is at the latest version
       apt: name=nginx state=latest
+      retries: 3
+      delay: 10
     - name: start nginx
       service:
           name: nginx
           state: started
-          
-          
+  
+  
+    - name: Creating a file with content
+      copy:
+       dest: "/var/www/html/index.nginx-debian.html"
+       content: |
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Welcome to Cisco Intersight Cloud Orchestrator!</title>
+        <style>
+        body {
+               width: 55em;
+               margin: 0 auto;
+               font-family: Tahoma, Verdana, Arial, sans-serif;
+        }
+        </style>
+        </head>
+
+
+        <body>
+        <h1>Welcome to Cisco Intersight Cloud Orchestrator -  ICO </h1>
+        <p>If you see this page, the nginx web server is successfully installed and working by using Cisco ICO.</p>
+
+        <p><em>Thank you for using Cisco Intersight Cloud Orchestrator (ICO).</em></p>
+        </body>
+        </html>
