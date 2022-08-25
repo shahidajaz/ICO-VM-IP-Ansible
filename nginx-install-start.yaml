@@ -11,7 +11,7 @@
           state: started
   
   
-    - name: Creating a file with content
+    - name: Creating an Index (html) ile for NGINX with content
       copy:
        dest: "/var/www/html/index.nginx-debian.html"
        content: |
